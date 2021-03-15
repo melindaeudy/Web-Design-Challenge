@@ -1,59 +1,79 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-    <meta charset = "UTF-8">
-    <title> Latitude</title>
-
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="Styles/style.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../Styles/style.css">
+
+    <title> Latitude</title>
 
   </head>
 
   <body>
     
-    <div>
-      <ul>
-        <li style="float:left"><a href = "index.html">Lattitude</a></li>
-        <li><a href="Visualizations/Data.html">Data</a></li>
-        <li><a href="Visualizations/Comparisons.html">Comparisons</a></li>
-      </ul> 
-    </div>  
-
-      <div class="col-lg-6" >
-        <div class="box">
-          <h2>Visualizations</h2>
-          <h5>Click any plot to get an in-depth analysis.</h5>
-          <hr class="my-4">
-          <div class="visual-container">
-              <div class="row">
-                <div class="col-6">
-                  <h3>Latitude vs Temperature</h3>
-                  <a href="maxtemperature.html">
-                  <img src="assets/images/Fig1.png" class="left-thumbnail" alt="Latitude vs Temperature"></a>
-                </div>
-              <div class="col-6">  
-                <h3>Latitude vs Humidity</h3>
-                <a href="humidity.html">
-                <img src="assets/images/Fig2.png" class="right-thumbnail" alt="Latitude vs Humidity"></a>
-              </div>
-              <div class="row">
-                <div class="col-6">
-                  <h3>Latitude vs Temperature</h3>
-                  <a href="cloudiness.html">
-                  <img src="assets/images/Fig3.png" class="left-thumbnail" alt="Latitude vs Temperature"></a>
-                </div> 
-                <div class="col-6">
-                  <h3>Latitude vs Wind Speed</h3>
-                  <a href="windspeed.html">
-                  <img src="assets/images/Fig4.png" class="right-thumbnail" alt="Latitude vs Wind Speed"></a>
-                </div> 
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="../index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="maxtemperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
             </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="Data.html" target="_blank">Data</a></li>
+          <li class="nav-item"><a class="nav-link" href="Comparisons.html" target="_blank">Comparisons</a></li>
+        </ul> 
+      </div>
+    </nav>
+
+    <div class="visual-container" >
+      <div class="row">
+          <h6>Comparisons: Latitude vs X</h6>
+          <hr>
+          <div class="visual-container">
+            <h5>Click any plot to get an in-depth analysis</h5>
+            <div class="row">
+              <div class="col-md-4">
+                <h3>vs Temperature</h3>
+                <a href="maxtemperature.html" target="_blank">
+                <img class="panel" src="../assets/images/Fig1.png" alt="Temperature vs. Latitude"></a>
+              </div>
+                <div class="col-md-4">  
+                  <h3>vs Humidity</h3>
+                  <a href="humidity.html" target="_blank">
+                  <img class="panel" src="../assets/images/Fig2.png" alt="Humidity vs. Latitude"></a>
+                </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <h3>vs Cloudiness</h3>
+                <a href="cloudiness.html" target="_blank">
+                <img class="panel" src="../assets/images/Fig3.png" alt="Cloudiness vs. Latitude"></a>
+              </div> 
+                  <div class="col-md-4">
+                    <h3>vs Wind Speed</h3>
+                    <a href="windspeed.html" target="_blank">
+                    <img class="panel" src="../assets/images/Fig4.png" alt="Wind Speed vs. Latitude"></a>
+                  </div> 
+              </div>
           </div>
-        </div>
-      </div>       
+        </div> 
+      </div>
+    </div>      
   </body>
 </html>
