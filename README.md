@@ -27,7 +27,7 @@ The website must consist of 7 pages total, including:
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a Bootstrap grid for the visualizations.
     * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
-* A ["Data" page](https://melindaeudy.github.io/Web-Design-Challenge/Visualizations/Date.html) that:
+* A ["Data" page](https://melindaeudy.github.io/Web-Design-Challenge/Visualizations/Data.html) that:
   * Displays a responsive table containing the data used in the visualizations.
     * The table must be a bootstrap table component. 
     * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. 
