@@ -7,19 +7,19 @@ https://melindaeudy.github.io/Web-Design-Challenge/
 Project required Total of 7 page website.
 
 
-1.  Landing Page with sidebar containing preview images of plots. 
-    -Navbar links (including one dropdown) ---sidebar plot links 
-    -Navbar must appear at the top of each page with working links
-2. Lattitude vs Max Temperature Image 
-    -located in Visualizations
+<p>1.  Landing Page with sidebar containing preview images of plots.</br> 
+    a. Navbar links (including one dropdown) ---sidebar plot links</br> 
+    b. Navbar must appear at the top of each page with working links<p></br>
+<p>2. Lattitude vs Max Temperature Image</br> 
+    a. located in Visualizations<p>
 3. Lattitdue vs Cloudiness Image 
-    -located in Visualizations
+    a. located in Visualizations
 4. Lattitude vs Humidity Image 
-    -located in Visualization
+    a. located in Visualization
 5. Lattitude vs Image 
-    -located in Visualization
+    a. located in Visualization
 6. Comparison of all four plots 
-    -Reset and enlarged the sidebar visualization for whole page viewing.
+    a. Reset and enlarged the sidebar visualization for whole page viewing.
 7.  Data Table
     -We were required to use only programing that has been covered to date. 
     -I populated the data table by creating a VBA program to add the td's and tr's where needed in the csv spreadsheet. 
