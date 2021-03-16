@@ -1,9 +1,10 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
+My site can be located at:  https://melindaeudy.github.io/Web-Design-Challenge/
 
 The website must consist of 7 pages total, including:
 
-* A [landing page](#landing-page) containing:
+* A [landing page](https://melindaeudy.github.io/Web-Design-Challenge/) containing:
   * An explanation of the project.
   * Links to each visualizations page. 
   There should be a sidebar containing preview images of each plot, 
