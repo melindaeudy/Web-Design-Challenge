@@ -36,11 +36,9 @@ The website must consist of 7 pages total, including:
 			Paste into index.html (all work in Resources folder)
 
 
-*	Additional Requirements: Bootstrap - grid, navbar, table component, and 
+* Additional Requirements: Bootstrap - grid, navbar, table component, and 
 responsiveness CSS media query for navigation menu
 
 
 
-### Copyright
 
-Trilogy Education Services © 2019. All Rights Reserved.
